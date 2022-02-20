@@ -16,33 +16,33 @@
   text-align: center;
   color: white;
 }
-.Input1{
-  position: absolute;
-  width: 480px;
+.email-input{
+  border: 1px solid #999999;
+  border-radius: 8px;
+  box-sizing: border-box;
   height: 56px;
+  position: absolute;
+  right: 250px;
   top: 433px;
-  border: 1px solid #999999;
-  box-sizing: border-box;
-  border-radius: 8px;
-  right: 250px;
-}
-.Input2{
-  position: absolute;
   width: 480px;
-  height: 56px;
-  top: 440px;
+}
+.password-input {
   border: 1px solid #999999;
-  box-sizing: border-box;
   border-radius: 8px;
+  box-sizing: border-box;
+  height: 56px;
+  position: absolute;
   right: 250px;
+  top: 440px;
+  width: 480px;
 }
 .ButtonForgotPass{
   color: #00C3A3;
   height: 20px;
   position: absolute;
-  left:500px;
   top: 450px;
   width: 136px;
+  right: 280px;
 }
 
 .container1{
@@ -59,8 +59,4 @@
   left: 360px;
 }
 .Form{
-  align-self: center;
-  justify-self: center;
-
 }
-

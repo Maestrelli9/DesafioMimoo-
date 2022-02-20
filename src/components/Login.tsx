@@ -1,4 +1,4 @@
-import { Input, Button, Form, Image } from 'antd';
+import { Input, Button, Form } from 'antd';
 import '../styles/login.css';
 
 export default function Login (){
@@ -6,13 +6,15 @@ export default function Login (){
     <Form className='Form'>
       <Form.Item>
         <Input
-        className='Input1'
+        type='email'
+        className='email-input'
         placeholder='Email'
         />
       </Form.Item>
       <Form.Item>
         <Input
-        className='Input2'
+        type='password'
+        className='password-input'
         placeholder='Senha'
         />
       </Form.Item>

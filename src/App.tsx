@@ -6,7 +6,8 @@ import LeftSide from './components/LeftSide';
 import ImageMimoo from './components/ImageMimoo';
 
 
-const App = () => (
+const App: React.FC = () => {
+  return(
   <section className='container'>
   <div className='left-half'>
     <article>
@@ -19,7 +20,7 @@ const App = () => (
     <Login />
   </div>
 </section>
-
-);
+)
+};
 
 export default App;
